@@ -26,7 +26,7 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
+  const defaultTitle = "pedrogglima"
 
   return (
     <Helmet
@@ -75,8 +75,8 @@ function SEO({ description, lang, meta, title }) {
 
 SEO.defaultProps = {
   lang: `en`,
-  meta: [],
-  description: ``,
+  meta: ["blog"],
+  description: `Personal blog`,
 }
 
 SEO.propTypes = {
