@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  web:
+    image: pedrogglima/pedrogglima:web_1.0.0_stg_v1.0
+    depends_on:
+      - app
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ssl_setup:/etc/letsencrypt
+      - ssl_certificate:/usr/share/nginx/certificates
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 5
+        window: 60s
