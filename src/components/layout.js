@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
       <div className="wrapper">
         <div className="wrapper-light-dark">
           <div className="container mx-auto">
-            <Header siteTitle="@pedrogglima" />
+            <Header siteTitle="pedrogglima" />
           </div>
         </div>
         <div className="wrapper-main container mx-auto">
