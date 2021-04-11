@@ -14,7 +14,7 @@ import Footer from "./footer"
 const Layout = ({ children }) => {
   return (
     <>
-      <div className="wrapper-header">
+      <div className="wrapper-light-dark">
         <div className="container mx-auto">
           <Header siteTitle="@pedrogglima" />
         </div>
@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
       <div className="container mx-auto">
         <main>{children}</main>
       </div>
-      <div className="wrapper-header">
+      <div className="wrapper-light-dark">
         <div className="container mx-auto">
           <Footer author="pedrogglima"></Footer>
         </div>
