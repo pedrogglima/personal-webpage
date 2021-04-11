@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  /* default text color*/
+  color: #c9d1d9;
+}
+
 .wrapper-light-dark {
   background-color: #161b22;
 }
