@@ -1,33 +1,15 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
+  <header>
+    <nav className="flex items-center justify-between flex-wrap p-6">
+      <div className="flex items-center flex-no-shrink text-white mr-6">
+        <span className="font-semibold text-xl tracking-tight">
           {siteTitle}
-        </Link>
-      </h1>
-    </div>
+        </span>
+      </div>
+    </nav>
   </header>
 )
 
@@ -36,7 +18,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: `pedrogglima`,
+  siteTitle: `@pedrogglima`,
 }
 
 export default Header
