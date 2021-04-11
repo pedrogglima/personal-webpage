@@ -5,7 +5,7 @@ const Header = ({ siteTitle }) => (
   <header>
     <nav className="flex items-center justify-between flex-wrap p-6">
       <div className="flex items-center flex-no-shrink text-white mr-6">
-        <span className="font-semibold text-xl tracking-tight">
+        <span className="mx-4 font-semibold text-xl tracking-tight">
           {siteTitle}
         </span>
       </div>
