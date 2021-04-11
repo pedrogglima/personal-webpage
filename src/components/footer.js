@@ -14,7 +14,7 @@ const createAt = start => (
 const Footer = ({ author }) => (
   <footer>
     <div className="container mx-auto px-6">
-      <div className="mt-16 flex flex-col items-center">
+      <div className="flex flex-col items-center">
         <div className="text-center py-3">
           <span className="text-sm text-white mb-2">
             {styleAuthor(author)} {copyRight()} {createAt(2020)}
