@@ -15,17 +15,17 @@ const Layout = ({ children }) => {
   return (
     <>
       <div className="wrapper">
-        <div className="wrapper-light-dark">
+        <div className="wrapper-light-dark border-b border-default-color">
           <div className="container mx-auto">
             <Header siteTitle="pedrogglima" />
           </div>
         </div>
-        <div className="wrapper-main container mx-auto">
+        <div className="bg-light-dark wrapper-main container mx-auto border-l border-r  border-default-color">
           <div className="container mx-auto">
             <main>{children}</main>
           </div>
         </div>
-        <div className="wrapper-light-dark">
+        <div className="wrapper-light-dark border-t border-default-color">
           <div className="container mx-auto">
             <Footer author="pedrogglima"></Footer>
           </div>
