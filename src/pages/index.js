@@ -61,11 +61,12 @@ const IndexPage = () => (
                     IDS (Intrusion Detection System)
                   </Link>
                 }{" "}
-                . This dataset was generated during a Capture the Flag contest
-                (Cyber Hacking Competition) in 2008, and the winner team gave an
-                interview explaning how they proceeded to hack the computers
-                located on a private network and capture the flag. To apply the
-                modularity algorithm on the dataset we had to create a{" "}
+                . This dataset was generated during a CTF contest (CTF is a
+                Cyber Hacking Competition that stand for Capture the Flag) in
+                2008, and the winner team gave an interview explaning how they
+                proceeded to hack the computers located on a private network and
+                capture the flag. To apply the modularity algorithm on the
+                dataset we had to create a{" "}
                 {
                   <Link
                     className="underline"
@@ -74,8 +75,8 @@ const IndexPage = () => (
                     Graph
                   </Link>
                 }{" "}
-                from the alerts's IP address Source and Destiny. The result from
-                applying the modularity algorithm on the created graph, and with
+                using the alerts's IP address Source and Destiny. The result
+                from applying the modularity algorithm on this graph, and with
                 the help of an algorithm for visualizing graphs, we obtained the
                 following image:
               </p>
@@ -109,23 +110,24 @@ const IndexPage = () => (
               <p>
                 Short description of the image: the vertices represent computers
                 (we call them hosts for now on) and the edges the interactions
-                among them. The colours are used to distinguish group of hosts
-                with greater interactions among them (this distinguishment is
-                the result of applying the modularity algorithm to the graph).
-                The vertices with high number of edges and isolated from the
-                group of vertices are the hosts that were compromised or have
-                experienced multiple attempts of attack.
+                among them. The colours are added by the algorithm for
+                visualizing graphs and used to distinguish group of hosts with
+                common interactions among them (these group are the result of
+                applying the modularity algorithm to the graph). The vertices
+                with high number of edges and isolated from the group of
+                vertices are the hosts that were compromised or have experienced
+                multiple attempts of attack.
               </p>
               <br />
               <p>
-                To summarize, with the detailed interview given by the winner
-                team of the CTF contest we could understand how the attacks and
-                compromises were made, and prove our hypotheses created from the
-                obtained image. From the image we were able to identify the
-                hosts that were compromised and the ones under attack. A
-                real-time and interactively application using this technique
-                would be able to show the chronological order of attacks and
-                compromised hosts.
+                Final, with the detailed interview given by the winner team of
+                the CTF contest we could understand how the attacks and
+                compromises were made, and prove our hypotheses from solely
+                analyzing the graph image. From the image we were able to
+                identify the hosts that were compromised and the ones under
+                attack. A real-time and interactively application using this
+                technique would be able to show, visually, the chronological
+                order of attacks and compromised hosts.
               </p>
             </div>
           </li>
