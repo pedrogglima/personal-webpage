@@ -21,6 +21,10 @@ body {
   flex: 1;
 }
 
-.color-light-dark {
+.bg-light-dark {
   background-color: #161b22;
+}
+
+.border-default-color {
+  border-color: #30363d;
 }
