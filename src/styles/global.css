@@ -25,6 +25,7 @@ body {
   background-color: #161b22;
 }
 
+/* default border color for wrapper components */
 .border-default-color {
   border-color: #30363d;
 }
