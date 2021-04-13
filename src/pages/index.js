@@ -215,7 +215,7 @@ const IndexPage = () => (
                     <span className="text-sm italic">check out on </span>
 
                     {
-                      <Link to="https://github.com/pedrogglima/scrap-cbf-record">
+                      <Link to="https://github.com/pedrogglima/personal-webpage">
                         <FontAwesomeIcon icon={faGithub} size="1x" />
                       </Link>
                     }
