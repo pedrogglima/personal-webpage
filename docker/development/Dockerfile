@@ -11,6 +11,9 @@ COPY package.json .
 
 RUN npm update 
 
+# helpful for build production output
+RUN npm install -g gatsby-cli
+
 RUN npm install 
 
 COPY . .
