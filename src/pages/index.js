@@ -116,20 +116,20 @@ const IndexPage = () => (
                     </li>
                     <li>
                       I work with Active Storage to save the Team's flag. When
-                      scraping data we save the URL for accessing the image of
-                      the Team's flag. Later, using a Sidekiq job, we download
-                      it locally and resize it, for performance reasons, then we
+                      scraping data we save the URL for accessing the Team's
+                      flag image. Later, using a Sidekiq job, we download it,
+                      locally, and resize it, for performance reasons, then we
                       save on AWS S3.
                     </li>
                     <li>
                       I use the framework StimulusJS to handle the library
                       SwiperJS to create sliders for the next/previous
                       championship's matches. While SwiperJS offers a great API
-                      for handling the sliders function, it doesn't offer the
-                      logic to load dynamically data to the sliders.
+                      for working with sliders, it doesn't offer the logic to
+                      load dynamically data to the sliders.
                     </li>
                     <li>
-                      The webiste let you login with Twitter or Google accounts.
+                      The website let you login with Twitter or Google accounts.
                       I also create an API, with api-key for login, to offer the
                       scraped data.
                     </li>
@@ -176,8 +176,8 @@ const IndexPage = () => (
                     }
                     . Some of the data scraped are: championship's matches,
                     ranking table and teams. The CBF page has data from the
-                    championship 2012 until the current one. They also update
-                    daily the matches and ranking table for the current
+                    championship 2012 until the current one. They also update,
+                    daily, the matches and ranking table for the current
                     championship. This project was build with:
                   </p>
                   <ul className="list-disc ml-8">
@@ -203,9 +203,9 @@ const IndexPage = () => (
                     it only has support for the ORM Active Record. This project
                     offers some flexibility on editing the data before saving:
                     it will let you name the models for the scraped entities,
-                    rename the entities attributes, delete attributes and create
-                    or not database associations between entities attributes. We
-                    accomplish that using Ruby metaprogramming.
+                    rename the entities's attributes, delete the entities's
+                    attributes and create or not database associations between
+                    entities's attributes.
                   </p>
                 </li>
                 <li>
