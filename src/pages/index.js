@@ -48,12 +48,12 @@ const IndexPage = () => (
                   The old system was outdated and without assistence.
                 </li>
                 <li>
-                  Participing on meetings and electronic trading system for
+                  Participating on meetings and electronic trading system for
                   acquiring new services.
                 </li>
                 <li>
                   Participing as coordinator for activities that the company was
-                  contract for. The responsabilities involved usually are:
+                  contract for. The responsibilities involved usually are:
                   <ul className="list-disc ml-4">
                     <li>
                       Traveling and preparing the place where the service will
