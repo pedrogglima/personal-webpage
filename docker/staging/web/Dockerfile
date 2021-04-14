@@ -6,8 +6,7 @@ LABEL maintainer="pedrogglima"
 RUN apt-get update -qq && apt-get -y install apache2-utils
 
 # Create the folders if necessary and set working directory inside the image 
-WORKDIR /app
-RUN mkdir log
+WORKDIR /etc/nginx/app
 RUN mkdir public
 COPY public public/
 
