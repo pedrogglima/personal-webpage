@@ -2,9 +2,7 @@ version: "3"
 
 services:
   web:
-    image: pedrogglima/pedrogglima:web_1.0.0_stg_v1.0
-    depends_on:
-      - app
+    image: pedrogglima/personal-webpage:web_1.0.0_stg_v1.0.10
     ports:
       - "80:80"
       - "443:443"
@@ -17,3 +15,7 @@ services:
         delay: 5s
         max_attempts: 5
         window: 60s
+
+volumes:
+  ssl_setup:
+  ssl_certificate:
