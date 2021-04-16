@@ -52,8 +52,8 @@ const IndexPage = () => (
                   acquiring new services.
                 </li>
                 <li>
-                  Participing as coordinator for activities that the company was
-                  contract for. The responsibilities involved usually are:
+                  Participating as coordinator for activities that the company
+                  was contract for. The responsibilities involved usually are:
                   <ul className="list-disc ml-4">
                     <li>
                       Traveling and preparing the place where the service will
